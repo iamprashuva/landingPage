@@ -1,0 +1,170 @@
+#header-content {
+  background-image: url("./Assets/pexels-digital-buggu-172872.jpg");
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: JetBrains Mono;
+}
+.navbar .btn
+{
+  background-color: #e38b19;
+  border: none;
+}
+.navbar .nav-link:hover
+{
+  text-decoration: underline;
+  color:#e38b19;
+}
+#header-content .btn
+{
+  background-color: #e38b19;
+  border: none;
+  border-radius: 2px;
+}
+/* #about {
+  height: fit-content;
+} */
+button.navbar-toggler,
+button.navbar-toggler:focus
+{
+  background-color: orange;
+  box-shadow:none;
+}
+
+
+/* Our rooms */
+#rooms img 
+{
+  object-fit: cover;
+  background-position: center;
+
+}
+#rooms .row{
+  height: fit-content;
+}
+
+#rooms .room-detail
+{
+  margin-top : 10%;
+}
+#rooms button{ 
+  background-color: #e38b19;
+  border:none;
+}
+/* Our events */
+#events .card .badge
+{
+  display:block;
+  background-color: #e38b19;
+  height:30%;
+  width: 40%;
+  position:absolute;
+  font-size: 100%;
+  padding-top: 5%;
+}
+#events .card .badge .event-date
+{
+  font-size:200%;
+}
+
+/* Our cuisine */
+#cuisine a
+{
+color:#e38b19;
+}
+
+/* Our Story */
+#story .card 
+{
+position:relative;
+display:block;
+height:auto;
+width:80%;
+margin-left:10%;
+}
+#story img
+{
+margin-top: -10%;
+}
+#story .story-description
+{
+  margin-top: 2%;
+}
+
+/* Contact Form */
+@media screen and (max-width: 780px) {
+#contact-form .container {
+    width: 90%;
+  }
+#contact-form button {
+   margin-bottom: 10px;
+}
+}
+
+@media screen and (min-width: 780px) {
+  #contact-form .container {
+    width: 50%;
+  }
+}
+
+#contact-form .contact-group .form-control
+{
+  border-radius: 0%;
+  border: none;
+  border-bottom: 1px solid #555;
+  background-color: rgb(219, 217, 217);
+}
+#contact-form .contact-group #floatingTextarea2 
+{
+  height: 70px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  border-radius: 4px;
+  resize:none;
+}
+#contact-form .contact-group .form-control:focus
+{
+  /* outline:none !important;
+  outline-width: 0 !important; */
+  box-shadow: none;
+}
+
+#contact-form .contact-group
+{
+  background-color: rgb(219, 217, 217);
+  height:auto;
+  width: auto;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+/* Footer */
+footer ul
+{
+  list-style: none;
+  padding-left:0rem;
+  text-decoration:none;
+}
+.footer-detail 
+{
+  text-decoration:none;
+  color:azure; 
+}
+ 
+#policy-detail .policy
+{
+  text-decoration:none;
+  color:azure;
+  font-size: 70%; 
+}
+ #policy-detail li
+{
+  display: inline;
+}
+
+.copyright
+{
+  font-size: 60%;
+}
+
